@@ -16,8 +16,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     require_once("Admin/config.php");
     $email = $_POST["email"];
     $password = $_POST["Password"];
-    $sql = "select * from users where `email` Like '$email' and `password` Like '$password'";
-    $resutl = mysqli_query($link , $sql);
+    $sql = "select * from users where `email` = ? and `password` = ?";
+    $stmt = mysqli_prepare($link, $sql);
+    mysqli_stmt_bind_param($stmt, "ss", $email, $password);
+    mysqli_stmt_execute($stmt);
+    $resutl = mysqli_stmt_get_result($stmt);
     
     if (mysqli_num_rows($resutl)>0)
     {
