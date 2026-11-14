@@ -17,9 +17,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     $name = $_POST["name"];
     $lname = $_POST["lname"];
     $email = $_POST["email"];
-    $password = $_POST["Password"];
-    $sql = "INSERT INTO `users` (`id`, `name`, `lname`, `email`, `password`, `type`) VALUES (NULL, '$name', '$lname', '$email', '$password', '2')";
-    $resutl = mysqli_query($link , $sql);
+    $password = $_POST["password"];
+    $sql = "INSERT INTO `users` (`id`, `name`, `lname`, `email`, `password`, `type`) VALUES (NULL, ?, ?, ?, ?, '2')";
+    $stmt = mysqli_prepare($link, $sql);
+    mysqli_stmt_bind_param($stmt, "ssss", $name, $lname, $email, $password);
+    $resutl = mysqli_stmt_execute($stmt);
     if ($resutl)
     {
       
