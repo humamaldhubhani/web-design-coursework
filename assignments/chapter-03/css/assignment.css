@@ -1,0 +1,27 @@
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    margin:30px;
+    padding:20px;
+}
+div
+{
+    border-bottom: 5px solid rgb(92, 216, 210);
+    background-color:rgb(92, 216, 210);
+    font-size:25px;
+    width: 450px;
+    height: 30px;
+    margin:24px;
+    padding:10px;
+}
+ul,li
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:rgb(30, 37, 22);
+    margin:5px;
+    padding-right:10px;
+    background-color:rgb(218, 196, 153) ;
+}

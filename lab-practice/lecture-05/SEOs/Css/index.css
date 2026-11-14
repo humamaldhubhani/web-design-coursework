@@ -1,0 +1,48 @@
+header
+{
+    text-align: center;
+    padding: 30px;
+}
+div , nav 
+{
+    display: inline-block;
+}
+ul
+{
+    list-style: none;
+}
+li
+{
+    display: inline;
+    margin-left:10px;
+}
+.nav
+{
+    margin-left: 150px;
+}
+ .Contact
+{
+    margin-left:80px;
+}
+a
+{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover
+{
+    color: #EF2379;
+    border-left: 2px solid #EF2379;
+}
+.Contact
+{
+    background-color: #074F8C;
+    color: white;
+    border-radius: 5px;
+}
+.Contact:hover
+{
+    background-color: #EF2379;
+    color: white;
+}

@@ -1,0 +1,35 @@
+
+
+
+.rank {
+  border-color: #678d94;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rank td,
+  .rank th {
+    border: none;
+    padding: 15px;
+    text-align: left;
+    
+  }
+  
+  .rank th {
+    background-color: #84c0bc;
+    color: #fff;
+    text-transform: uppercase;
+    
+  }
+  
+  .rank td {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(82, 82, 82);
+    }
+  
+  
+  
+  
+  
+  

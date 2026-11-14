@@ -1,0 +1,42 @@
+.create-account-form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center; /* to center vertically */
+    border-radius: 20px;
+  }
+  
+  .create-account-form h1 {
+    text-align: center;
+  }
+  
+  .create-account-form form {
+    margin-top: 20px;
+  }
+  
+  .create-account-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .create-account-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .create-account-form input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,39 @@
+.invoice-table {
+    width: 80%;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center; /* to center vertically */
+    border-radius: 20px;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    border: ;
+    padding: 5px;
+  }
+  
+  .invoice-table th {
+    background-color: #c9c9c4;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  
+  .invoice-table td {
+    text-align: center;
+    
+  }
+
+  .invoice-table tr:nth-child(even)
+{
+    background-color: rgb(225, 233, 236);
+}
+
+.invoice-table button
+{
+    background-color: rgb(142, 228, 238);
+    border: #bff6b0;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+  

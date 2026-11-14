@@ -1,0 +1,88 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+/*small*/
+@media (min-width:768px)
+{
+    .container{
+        width:750px;
+    }
+}
+/*medium*/
+@media (min-width:992px)
+{
+    .container{
+        width:970px;
+    }
+}
+/*large*/
+@media (min-width:1200px)
+{
+    .container{
+        width:1170px;
+    }
+}
+body{
+    background-color:  rgb(225, 235, 232);
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.container{
+    background-color: rgb(24, 69, 40);
+    width: 500px;
+    height:500px;
+    border-radius: 15px;
+    margin-left: 33.3%;
+    margin-top: 9%;
+    box-shadow: 0px 0px 32px black
+}
+.logo img{
+    width: 120px;
+    height: 30px;
+    margin: 31px 0px 3px 32px;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 66px;
+    margin-top: 50px;
+    color: white;
+}
+[type="email"]{
+    margin-top: 40px;
+    display: block;
+    width: 475px;
+    margin-left: 14px;
+    height: 41px;
+    border: 1px solid rgb(40, 91, 59);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+[type="password"]{
+    margin-top: 40px;
+    display: block;
+    width: 475px;
+    margin-left: 14px;
+    height: 41px;
+    border: 1px solid rgb(40, 91, 59);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+[type="submit"]{
+    margin-top: 40px;
+    display: block;
+    width: 170px;
+    height: 34px;
+    border-radius: 30px;
+    margin-left: 33%;
+}

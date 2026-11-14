@@ -1,0 +1,123 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+/*small*/
+@media (min-width:768px)
+{
+    .container{
+        width:750px;
+    }
+}
+/*medium*/
+@media (min-width:992px)
+{
+    .container{
+        width:970px;
+    }
+}
+/*large*/
+@media (min-width:1200px)
+{
+    .container{
+        width:1170px;
+    }
+}
+a{
+    text-decoration: none;
+    
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    height:550px;
+    border-radius: 15px;
+    margin-left: 33.3%;
+    margin-top: 9%;
+    border: 1px rgba(0, 0, 0, 0.263) solid;
+}
+.logo img{
+    width: 120px;
+    height: 30px;
+    margin: 15px 0px 3px 20px;
+}
+.text{
+   
+    margin: -2px 0px -12px 33px;
+    padding-top: 10px;
+    color:black;
+}
+.email a *,.google a *{
+    display: inline-block;
+    color: rgb(0, 0, 0);  
+}
+.email a,.google a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 11px 130px;
+    margin-left: 32px;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+.email a:hover, .google a:hover{
+  background-color: rgb(240, 240, 240);
+}
+.apple a *,.facebook a *{
+    display: inline-block;
+    color: rgb(0, 0, 0); 
+}
+.apple a,.facebook a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    background-color:rgb(255, 255, 255);   
+   
+}
+.apple a:hover,.facebook a:hover{
+    background-color: rgb(240, 240, 240);
+}
+.container p{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.container span{  
+    padding-top: 20px;
+    color:rgb(39, 244, 114,0.737); 
+}
+.container .or{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+.google{
+    margin-bottom: -5px;
+}
+.email{
+    margin-bottom: 37px;
+}
+.email a{
+    padding: 11px 134px;
+}
+.apple{
+    display: inline-block;
+    margin-left: 27px;
+}
+.apple a{
+    padding: 10px 78px;
+}
+.facebook{
+    display: inline-block;
+    margin-left: -1px;
+}
+
+.facebook a{
+    padding: 10px 67px; 
+}
+

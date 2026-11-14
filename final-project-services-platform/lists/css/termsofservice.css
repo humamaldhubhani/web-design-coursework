@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(20, 57, 33, 0.311);
+}
+
+.header img{
+    width: 110px;
+    height: 35px;
+    margin: 30px 0px -5px 40px;
+    display: flex;
+}
+
+.main{
+width: 50%;
+background-color: white;
+margin: auto;
+border: black solid 1px;
+margin-top: 10%;
+
+
+}
+
+.main .title{
+font-size: 25px;
+color: rgba(0, 0, 0, 0.700);
+
+}
+.contant .subtitle p{
+font-size: 20px;
+margin-top: 100px;
+
+}
+.contant p{
+    font-size: 17px;
+    
+}

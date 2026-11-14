@@ -1,0 +1,10 @@
+The idea of the project:
+Services is a platform that offer the freelancers a large opportunities to offer their services to the client which mean that you can sign up to the website as a freelancer who looks fot job opportunities or as a client who looks for someone to do somthing for him.
+
+The project was made by:
+1-Humam Al-Dhubhani.
+2-Hashim Al-Kebsi.
+3-eyad Aqlan
+4-Mohanned al-absi
+5-Yousef al-moghalis
+6-hashim noman

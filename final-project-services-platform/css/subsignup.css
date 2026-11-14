@@ -1,0 +1,133 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+/*small*/
+@media (min-width:768px)
+{
+    .container{
+        width:750px;
+    }
+}
+/*medium*/
+@media (min-width:992px)
+{
+    .container{
+        width:970px;
+    }
+}
+/*large*/
+@media (min-width:1200px)
+{
+    .container{
+        width:1170px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(30, 90, 51);
+    
+}
+input{
+    outline: none;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height:500px;
+    border-radius: 15px;
+    margin-left: 33.3%;
+    margin-top: 9%;
+    border: 1px rgba(0, 0, 0, 0.263) solid;
+
+}
+.logo img{
+    width: 120px;
+    height: 30px;
+    margin: 31px 0px 3px 32px;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(51, 156, 88);
+}
+[type="text"]{
+    width: 230px;
+    margin-left: 13px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 0, 0.269);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+[type="text"]:hover{
+    border: 1px solid rgba(20, 57, 33, 0.587);
+    border-radius: 10px;
+}
+[type="email"]{
+    margin-top: 40px;
+    display: block;
+    width: 475px;
+    margin-left: 14px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 0, 0.269);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+[type="email"]:hover{
+    border: 1px solid rgba(20, 57, 33, 0.587);
+    border-radius: 10px;
+}
+[type="password"]{
+    margin-top: 40px;
+    display: block;
+    width: 475px;
+    margin-left: 14px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 0, 0.269);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+[type="password"]:hover{
+    border: 1px solid rgba(20, 57, 33, 0.587);
+    border-radius: 10px;
+}
+[type="checkbox"]{
+    margin-top: 36px;
+    display: inline-block;
+    height: 17px;
+    width: 53px;
+}
+.container label{
+    margin-top: 41px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+[type="submit"]{
+    color: white;
+    border: none;
+    margin-top: 40px;
+    display: block;
+    width: 170px;
+    height: 34px;
+    border-radius: 30px;
+    margin-left: 33%;
+    background-color:rgb(51, 156, 88) ;
+    
+}
+
+label a:hover{
+   color: #00000082;
+}
+.termsofservice{
+    margin-top: 20px;
+    margin-left: 100px;
+}

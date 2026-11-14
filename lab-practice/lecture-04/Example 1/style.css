@@ -1,0 +1,18 @@
+.profile-card {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  padding:20px;
+  background-color: rgpa(20,20,20,50);
+  color: red;
+  font-family: Arial, sans-serif;
+  border:1px solid;
+  text-align:center;
+  border-radius:50%;
+  display: inline-block;
+}
+
+img{
+width: 70%;
+height:50%;
+}

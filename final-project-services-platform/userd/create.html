@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Record</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .wrapper{
+            width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    ec
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+  if(isset($_POST["name"]) && isset($_POST["text"])) && isset($_FILES["img"]))
+  {
+    $echo "text";
+    $name = $_POST["name"];
+    $text = $_POST["text"];
+    $img = $_FILES["img"]["name"];
+    $filetomove =  $_FILES[img]["tmp_name"]
+    dist = "../../img/". $img;
+    if(move_uploaded_file( $filetomove, $dist))
+    {
+        require_once(../config.php)
+        sql = INSERT INTO `creat`  `name`, `text`, `img`) VALUES ( '$name', '$text', '$img');
+        $result = mysql_query($link,$sql)
+        if($result)
+        {
+            header("Location:index.php")
+        }
+        else
+        {
+            header("Location:error.php")
+  
+        }
+    }
+  }
+  ?>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="mt-5">Create Record</h2>
+                    <p>Please fill this form and submit to add employee record to the database.</p>
+                    <form action="create.php" enctype="multipart/form-data" method="POST">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" class="form-control" value="">
+                            <span class="invalid-feedback"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>text</label>
+                            <input name="password" class="form-control">
+                            <span class="invalid-feedback"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>title</label>
+                            <input type="text" name="email" class="form-control" value="">
+                            <span class="invalid-feedback"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>img</label>
+                            <input type="file" name="img" class="form-control" value="">
+                            <span class="invalid-feedback"></span>
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                        <a href="index.html" class="btn btn-secondary ml-2">Cancel</a>
+                    </form>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
